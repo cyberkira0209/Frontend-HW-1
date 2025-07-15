@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to right, #FFD8C6, #FFF2BD);
+    color: #3b2d2d;
+}
+
+header {
+    background: transparent;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+}
+
+.sign-up {
+    background: #ffc1c1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 40px;
+}
+
+.about .text {
+    width: 60%;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p, .about ul {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.about ul {
+    padding-left: 20px;
+}
+
+.about ul li {
+    list-style: disc;
+}
+
+.about .images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about .images img.rounded {
+    width: 200px;
+    border-radius: 20px;
+}
+
+/* 🔽 Зміщення першого зображення трохи вліво */
+.about .images img.rounded:first-child {
+    margin-left: -100px;
+}
